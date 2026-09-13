@@ -74,7 +74,7 @@ SCRIPT_LICENSE  = "GPL"
 SCRIPT_DESC     = "add a plain text or evaluated content to item bar"
 
 # regexp to match ${color} tags
-regex_color=re.compile('\$\{([^\{\}]+)\}')
+regex_color=re.compile(r'\$\{([^\{\}]+)\}')
 
 hooks = {}
 TIMER = None
